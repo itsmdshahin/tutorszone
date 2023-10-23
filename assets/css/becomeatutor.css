@@ -1,0 +1,17 @@
+.containerforform {
+    /* background-image: linear-gradient(to right bottom, #4624a9, #5e269d, #6c2b91, #753287, #7b3a7e); */
+    background-image: linear-gradient(to right bottom, #502bba, #6827b0, #7824a7, #85239e, #8f2495);
+    color: white;
+    width: 90%;
+    margin-top: 10px;
+}
+.nobtn{
+    color: #9865a7;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.inputdiv{
+    color:  #9865a7;
+}
+

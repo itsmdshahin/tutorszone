@@ -1,0 +1,336 @@
+* {
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+
+#container{
+   margin: 0 auto;
+   border: 2px solid #838383;
+   text-align: center;
+   border-radius: 20px;
+   box-shadow: #838383;
+   width: 50%;
+   height: auto;
+   padding: 25px 5px 25px 5px;
+}
+
+/* Adjust label styles */
+#containers label {
+   display: block;
+   margin-bottom: 10px;
+   text-align: center;
+} 
+.navbar {
+   /* background-color: rgb(32, 36, 109); */
+   /* background-color: rgb(154, 13, 167) ; */
+   /* background: linear-gradient(45deg, rgb(91, 38, 103), rgb(35, 13, 176)); */
+   background-image: linear-gradient(to right, #800d78, #6d0674, #5a0370, #45016c, #2e0267);
+   padding: 10px;
+}
+
+.header-logo {
+   float: left;
+   
+}
+
+.header-logo h1{
+   color: #ffffff;
+}
+
+.header-logo:hover {
+   color:  rgb(148, 32, 175);
+
+}
+.header-menu {
+   float: right;
+   color: white;
+}
+.header-logo a {
+   text-decoration: none;
+}
+.header-menu ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+ 
+}
+
+.header-menu li {
+   padding: 10px 10px 10px 10px;
+   display: inline-block;
+   text-decoration: none;
+  
+}
+
+.header-menu a {
+   text-decoration: none;
+   border: 1px solid hsl(304, 72%, 59%);
+   padding: 10px;
+   color: #ffffff;
+   border-radius: 35px;
+   /* background-color: #a9bfff; */
+}
+
+
+.fotter-col {
+   padding: 10px;
+   margin-top: 50px;
+   background-image: radial-gradient(circle, #0a30a0, #402c96, #58288c, #672682, #722679);
+   text-align: center;
+   margin-top: 10px;
+
+}
+
+.fotter-col:hover {
+   color: #1b4c06;
+}
+
+.header-menu a:hover {
+   background-color: #ffffff;
+   border: 1px solid hsl(304, 65%, 30%);
+   padding: 10px;
+   color: rgb(138, 25, 203);
+   border-radius: 35px;
+}
+
+.card-div {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+   grid-gap: 1rem 1rem;
+   gap: 1rem 1rem;
+}
+
+.card-main {
+   background-color: #fff;
+   box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .2);
+   padding: 1.5rem;
+   border-radius: 10px;
+   border: 1px solid hsla(0, 0%, 82.7%, .397);
+   transition: all .3s ease;
+}
+
+.card-img-div {
+   position: relative;
+   height: 250px;
+   overflow: hidden;
+   text-align: center;
+}
+
+.card-des-div {
+   text-align: center;
+}
+
+.card-footer-div {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.card-footer-div button{
+   border: none;
+   outline: 0;
+   display: inline-block;
+   padding: 8px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+.bodyss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+  margin-bottom: 10%;
+}
+.containers {
+  display: flex;
+  width: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+/* cards design */
+.cards {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 10px rgba(39, 6, 69, 0.2);
+  /* overflow: hidden; */
+  width: 300px;
+  margin-top: 80px;
+}
+.card-headers img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-bodys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+.card-bodys a{
+   text-decoration: none;
+}
+.tags {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+.tag-teals {
+  background-color: rgb(138, 25, 203);
+}
+.tag-purple {
+  background-color:rgb(138, 25, 203);
+ 
+}
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-bodys p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+.users {
+  display: flex;
+  margin-top: auto;
+}
+
+.users img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-infos h5 {
+  margin: 0;
+}
+.user-infos small {
+  color: #545d7a;
+}
+
+/* code for slider */
+.slider{
+   background-image: url(../image/homeimg.jpg) ;
+   height: 100vh;
+   /* width: 100vw; */
+   background-size: cover;
+   background-position: center;
+}
+.slide-tag{
+   color: #ffffff;
+   
+   justify-content: center;
+   align-items: center;
+   padding-top: 250px;
+   padding-left: 50px;
+} 
+
+.slide-tag h1{
+   font-size: 50px;
+}
+
+.slide-tag p{
+   font-size: 25px;
+}
+
+.slide-tag .mybtn{
+   border: 1px solid hsl(304, 72%, 59%);
+   background-color: #3a126e;
+   border-radius: 10px;
+   color: #ffffff;
+}
+.slide-tag .mybtn:hover{
+   background-color: #a9bfff;
+   border: 1px solid hsl(304, 65%, 30%);
+   /* padding: 10px; */
+   color: rgb(138, 25, 203);
+   border-radius: 35px;
+}
+
+
+/* code for slider */
+.adsslider{
+   /* background-color: #1b4c06; */
+   background: linear-gradient(rgb(23, 15, 83), rgb(91, 38, 103));
+   display: flex;
+   padding: 50px;
+   justify-content: center;
+   align-items: center;
+}
+
+.ads1{
+   /* background-color:hsl(304, 65%, 30%); */
+   background-image: linear-gradient(to right bottom, #800d78, #7f1486, #7b1c96, #7425a6, #692eb6);
+   padding: 100px;
+   
+}
+.images-img img{
+  width: 30px;
+ 
+}
+.adsnumber h2{
+   color:  #ffffff;
+}
+.adsnumber p{
+   color: #ffffff;
+}
+
+.headergap{
+   background-image:  url(../image/pin.png) ;
+   height: 100vh;
+   /* width: 100vw; */
+   background-size: cover;
+   background-position: center;
+  margin-top: 100px;
+}
+
+
+.headerslider h2{
+   color: hsl(249, 47%, 57%);
+   font-size:50px;
+   /* box-shadow: 5px 5px 40px 2px #f3a200; */
+   /* text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em blue, 0 0 0.2em rgb(166, 0, 255); */
+   
+}
+.header-logo img{
+   width: 80px;
+}
+
+
+.item img{
+   width: 250px;
+   height: 250px;
+}
+
+.text-light{
+   text-decoration: none;
+}
+
+.copyright{
+   margin-top:10px;
+}

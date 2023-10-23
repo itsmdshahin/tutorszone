@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Cormorant+Garamond:ital,wght@1,300&family=Shadows+Into+Light&display=swap');
+.maincontainerforprofile{
+    display: flex;
+    background-image: url('../image/pin4.png');
+    margin-left: 80px;
+}
+
+.profile-div{
+    /* background-color: rgb(255, 255, 255); */
+    float: left;
+    width: 50%;
+}
+
+.profile-animation{
+    width: 70%;
+
+}
